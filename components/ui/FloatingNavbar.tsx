@@ -80,3 +80,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+// you dont stink?
