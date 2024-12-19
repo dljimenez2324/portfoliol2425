@@ -1,15 +1,14 @@
 "use client";
 import React, { ReactNode } from "react";
-import { IconClipboard } from "@tabler/icons-react";
-import { cn } from "@/lib/utils";
+
 
 const BorderMagicButton = ({
-  title,icon,position,handleClick,otherClasses
+  title,icon,position,otherClasses
 }: {
   title: string;
   icon: ReactNode;
   position: string;
-  handleClick?: () => void;
+  // handleClick?: () => void;
   otherClasses?: string;
 }) => {
   return (
