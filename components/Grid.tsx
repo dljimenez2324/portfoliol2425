@@ -5,7 +5,7 @@ import React from 'react'
 
 const Grid = () => {
   return (
-    <section id="#about">
+    <section id="about">
       <BentoGrid>
         {gridItems.map(
           ({ title, description, id, className, img, imgClassName, titleClassName, spareImg }) => (

@@ -1,4 +1,5 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
@@ -205,13 +206,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https:// ....",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https:// ....",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https:// ....",
     },
   ];

@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { BackgroundLines } from "./BackgroundLines";
-import { div } from "framer-motion/client";
+// import { div } from "framer-motion/client";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -166,7 +166,7 @@ export const BentoGridItem = ({
                     autoplay: copied,
                     animationData,
                     rendererSettings: {
-                      preserveAspectRatio: "xMidyMid slice",
+                      preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
                 />
