@@ -26,8 +26,8 @@ const RecentProjects = () => {
                                     <img src={img} alt={img} className='z-10 absolute bottom-0' />
                                 </div>
 
-                                <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>{title}</h1>
-                                <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>{des}</p>
+                                <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1  text-white' >{title}</h1>
+                                <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-gray-400'>{des}</p>
 
                                 <div className='flex items-center justify-between mt-7 mb-3'>
                                     <div className='flex items-center '>

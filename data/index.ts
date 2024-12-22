@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Interactive Galaxy Tour",
-      des: "Embark on a visually stunning journey through galaxies with this immersive 3D simulation using Three.js.",
-      img: "/p1.svg",
+      title: "Game Search App",
+      des: "Search games from almost any platform, genre or name and display their details with a description, video, and screenshots",
+      img: "/p1aa.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/yourgithublink",
+      link: "https://reactgameapp.vercel.app/",
     },
     {
       id: 2,
@@ -101,6 +101,14 @@ export const navItems = [
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/yourgithublink",
+    },
+    {
+      id: 5,
+      title: "Local Business Website Redevelopment",
+      des: "Outdoor Sportsman website modified to have an updated appeal",
+      img: "/p5.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://business-redevelopment-2p0mgs3q6.vercel.app/",
     },
   ];
   
