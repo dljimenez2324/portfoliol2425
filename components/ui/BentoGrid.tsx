@@ -62,10 +62,19 @@ export const BentoGridItem = ({
   };
 
   const handleDownload = () => {
-    const resumeUrl = '/DJResume.pdf';
-    const link = document.createElement('a');
+    const resumeUrl = "/DJResume.pdf";
+    const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = 'DJResume.pdf'; 
+    link.download = "DJResume.pdf";
+    link.click();
+  };
+
+  const handleSkillsUSA = () => {
+    const videoUrl = "https://youtu.be/h1pljfetCFo?si=7LlbaE78PURKTTda";
+    const link = document.createElement("a");
+    link.href = videoUrl;
+    link.target = "_blank"; // Set the target to open in a new tab
+    link.rel = "noopener noreferrer"; // Optional: Improves security for links with _blank
     link.click();
   };
 
@@ -93,6 +102,7 @@ export const BentoGridItem = ({
         </div>
 
         <div
+          id="contact"
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
           }`}
@@ -126,6 +136,13 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-neutral-200 text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
+          
+          {/* {id === 1 && (
+            <div className="forced-color-adjust-auto has-[text-neutral-200]: to-black-100">
+              
+            </div>
+          )} */}
+
           {id === 2 && (
             <BackgroundLines>
               <div></div>
@@ -163,6 +180,18 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+
+          {id === 4 && (
+            <div className="mt-7 relative">
+              <BorderMagicButton
+                title={copied ? "Clicked" : " Video Here"}
+                icon={<IoCopyOutline />}
+                position="left"
+                otherClasses="!bg-[#161e31]"
+                handleClick={handleSkillsUSA}
+              />
             </div>
           )}
 

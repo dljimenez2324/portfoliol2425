@@ -32,10 +32,11 @@ const Hero = () => {
 
                 <TextGenerateEffect 
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                    words={"Hey there! I'm your friendly neighborhood junior software engineer"}
+                    words={"Hey there! I'm a junior software engineer"}
                 />
                 {/* have the text below fad in after the textgenerate effect component above */}
-                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">I&apos;m David Jimenez, an Engineering Design, Additive Manufacturing Educator in Stockton, CA.</p>
+                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">I&apos;m David Jimenez. I can help you locally,</p>
+                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">in the San Joaquin Valley area & remotely!</p>
 
                 {/* add the button below here */}
                 <a href="#projects"><BorderMagicButton  title="My Projects" icon={<GoArrowDownRight />} position="right"/></a>
