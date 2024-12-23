@@ -35,10 +35,10 @@ const Hero = () => {
                     words={"Hey there! I'm your friendly neighborhood junior software engineer"}
                 />
                 {/* have the text below fad in after the textgenerate effect component above */}
-                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">I&apos;m David, a Next.js Developer based in Stockton,CA</p>
+                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">I&apos;m David Jimenez, an Engineering Design, Additive Manufacturing Educator in Stockton, CA.</p>
 
                 {/* add the button below here */}
-                <a href="#about"><BorderMagicButton  title="My Projects" icon={<GoArrowDownRight />} position="right"/></a>
+                <a href="#projects"><BorderMagicButton  title="My Projects" icon={<GoArrowDownRight />} position="right"/></a>
                 
             </div>
         </div>

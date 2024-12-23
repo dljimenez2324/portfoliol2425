@@ -59,8 +59,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact me Copy my Email",
-      description: "Access coding tutorials, challenges, and mentorship in one place.",
+      title: "Contact Me",
+      description: "Email me or download my resume",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
