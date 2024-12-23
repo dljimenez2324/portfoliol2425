@@ -26,6 +26,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 See the link here    https://portfoliol2425.vercel.app/
 
+## GetHub here
+See the link  https://github.com/dljimenez2324 for a list of projects
 
 ## Technologies used
 Styling - Aceternity UI  https://ui.aceternity.com/
