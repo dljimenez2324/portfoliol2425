@@ -3,13 +3,11 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { BackgroundLines } from "./BackgroundLines";
-// import { div } from "framer-motion/client";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import BorderMagicButton from "./BorderMagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import { div } from "framer-motion/client";
 
 export const BentoGrid = ({
   className,
